@@ -15,7 +15,10 @@
 `endif
 
 module spk286_at_serial #(
-    parameter bit MPU_MODE = 1'b0
+    parameter bit MPU_MODE = 1'b0,
+    // 1: UART receiver returns to idle at the centre of the stop bit (see
+    // rtl/uart/uart_receiver.vhd MIDSTOP). Default keeps the original logic.
+    parameter int RX_MIDSTOP = 0
 ) (
     input  logic        clk,
     input  logic        reset,
@@ -145,7 +148,7 @@ module spk286_at_serial #(
             assign rts_n = 1'b1;
             assign dtr_n = 1'b1;
         end else begin : GEN_UART_SOURCE
-            uart u_uart (
+            uart #(.RX_MIDSTOP(RX_MIDSTOP)) u_uart (
                 .clk      (clk),
                 .reset    (reset),
                 .address  (address_q),
