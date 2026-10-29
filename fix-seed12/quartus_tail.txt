@@ -1,0 +1,60 @@
+    Info (332119):    15.967               0.000 emu|u_at_video_pll|pll_system_inst|altera_pll_i|general[1].gpll~PLL_OUTPUT_COUNTER|divclk 
+    Info (332119):    16.017               0.000 FPGA_CLK1_50 
+    Info (332119):    16.396               0.000 emu|u_at_video_pll|pll_system_inst|altera_pll_i|general[2].gpll~PLL_OUTPUT_COUNTER|divclk 
+    Info (332119):    31.524               0.000 emu|u_at_video_pll|pll_system_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk 
+Info (332146): Worst-case removal slack is 0.151
+    Info (332119):     Slack       End Point TNS Clock 
+    Info (332119): ========= =================== =====================
+    Info (332119):     0.151               0.000 AT_HDMI_TX_DIRECT 
+    Info (332119):     0.151               0.000 AT_HDMI_TX_SCALED 
+    Info (332119):     0.311               0.000 FPGA_CLK1_50 
+    Info (332119):     0.371               0.000 pll_hdmi|pll_hdmi_inst|altera_pll_i|cyclonev_pll|counter[0].output_counter|divclk 
+    Info (332119):     0.424               0.000 FPGA_CLK2_50 
+    Info (332119):     0.481               0.000 emu|u_at_video_pll|pll_system_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk 
+    Info (332119):     0.580               0.000 sysmem|fpga_interfaces|clocks_resets|h2f_user0_clk 
+    Info (332119):     0.639               0.000 emu|u_at_video_pll|pll_system_inst|altera_pll_i|general[2].gpll~PLL_OUTPUT_COUNTER|divclk 
+    Info (332119):     0.896               0.000 emu|u_at_video_pll|pll_system_inst|altera_pll_i|general[1].gpll~PLL_OUTPUT_COUNTER|divclk 
+Info (332146): Worst-case minimum pulse width slack is 0.793
+    Info (332119):     Slack       End Point TNS Clock 
+    Info (332119): ========= =================== =====================
+    Info (332119):     0.793               0.000 emu|u_at_video_pll|pll_system_inst|altera_pll_i|general[0].gpll~FRACTIONAL_PLL|vcoph[0] 
+    Info (332119):     1.122               0.000 pll_hdmi|pll_hdmi_inst|altera_pll_i|cyclonev_pll|fpll_0|fpll|vcoph[0] 
+    Info (332119):     1.196               0.000 pll_audio|pll_audio_inst|altera_pll_i|general[0].gpll~FRACTIONAL_PLL|vcoph[0] 
+    Info (332119):     2.250               0.000 pll_hdmi|pll_hdmi_inst|altera_pll_i|cyclonev_pll|counter[0].output_counter|divclk 
+    Info (332119):     2.894               0.000 AT_HDMI_TX_SCALED 
+    Info (332119):     3.907               0.000 sysmem|fpga_interfaces|clocks_resets|h2f_user0_clk 
+    Info (332119):     4.566               0.000 spi_sck 
+    Info (332119):     7.614               0.000 emu|u_at_video_pll|pll_system_inst|altera_pll_i|general[2].gpll~PLL_OUTPUT_COUNTER|divclk 
+    Info (332119):     7.617               0.000 emu|u_at_video_pll|pll_system_inst|altera_pll_i|general[1].gpll~PLL_OUTPUT_COUNTER|divclk 
+    Info (332119):     8.258               0.000 AT_HDMI_TX_DIRECT 
+    Info (332119):     8.444               0.000 FPGA_CLK2_50 
+    Info (332119):     9.080               0.000 FPGA_CLK1_50 
+    Info (332119):     9.274               0.000 FPGA_CLK3_50 
+    Info (332119):    16.344               0.000 emu|u_at_video_pll|pll_system_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk 
+    Info (332119):    19.222               0.000 pll_audio|pll_audio_inst|altera_pll_i|general[0].gpll~PLL_OUTPUT_COUNTER|divclk 
+Info (332114): Report Metastability: Found 794 synchronizer chains.
+    Info (332114): Worst-Case MTBF of Design is 1.97e+03 years or 6.2e+10 seconds.
+    Info (332114): Typical MTBF of Design is 1e+09 years or 3.15e+16 seconds.
+
+    Info (332114): Number of Synchronizer Chains Found: 794
+    Info (332114): Shortest Synchronizer Chain: 2 Registers
+    Info (332114): Fraction of Chains for which MTBFs Could Not be Calculated: 0.911
+    Info (332114): Worst Case Available Settling Time: 4.944 ns
+    Info (332114): Worst-Case MTBF values are calculated based on the worst-case silicon characteristics, with worst-case operating conditions.
+    Info (332114):   - Under worst-case conditions, an increase of 100ps in available settling time will increase MTBF values by a factor of 1.7
+    Info (332114): Typical MTBF values are calculated based on the nominal silicon characteristics, at nominal operating conditions.
+    Info (332114):   - Under typical conditions, an increase of 100ps in available settling time will increase MTBF values by a factor of 17.8
+Info (332102): Design is not fully constrained for setup requirements
+Info (332102): Design is not fully constrained for hold requirements
+Info: Quartus Prime TimeQuest Timing Analyzer was successful. 0 errors, 35 warnings
+    Info: Peak virtual memory: 3305 megabytes
+    Info: Processing ended: Thu Oct 29 07:51:11 2026
+    Info: Elapsed time: 00:02:10
+    Info: Total CPU time (on all processors): 00:06:06
+Info (293000): Quartus Prime Full Compilation was successful. 0 errors, 1071 warnings
+Info (23030): Evaluation of Tcl script /opt/intelFPGA_lite/quartus/common/tcl/internal/qsh_flow.tcl was successful
+Info: Quartus Prime Shell was successful. 0 errors, 1071 warnings
+    Info: Peak virtual memory: 837 megabytes
+    Info: Processing ended: Thu Oct 29 07:51:12 2026
+    Info: Elapsed time: 00:30:46
+    Info: Total CPU time (on all processors): 01:03:45

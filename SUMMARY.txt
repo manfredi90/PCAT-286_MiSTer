@@ -1,0 +1,15 @@
+fix-seed1          0.045
+fix-seed10         0.011
+fix-seed11         -0.137
+fix-seed12         0.074
+fix-seed13         -0.017
+fix-seed14         -0.265
+fix-seed2          -0.478
+fix-seed3          -0.089
+fix-seed4          0.030
+fix-seed5          -0.161
+fix-seed6          -0.242
+fix-seed7          0.044
+fix-seed8          -0.018
+fix-seed9          -0.009
+upstream-seed4     0.078
