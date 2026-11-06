@@ -1,0 +1,9 @@
+fix-projseed       0.036
+fix-seed2          0.063
+fix-seed3          -0.135
+fix-seed4          0.070
+fix-seed5          0.046
+fix-seed6          0.066
+fix-seed7          0.023
+fix-seed8          -0.136
+fix-seed9          0.048
